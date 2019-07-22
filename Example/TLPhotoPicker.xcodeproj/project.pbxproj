@@ -235,7 +235,7 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
-						DevelopmentTeam = RNR9A42JW9;
+						DevelopmentTeam = XX67K39342;
 						LastSwiftMigration = 0820;
 					};
 				};
@@ -301,7 +301,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-TLPhotoPicker_Example/Pods-TLPhotoPicker_Example-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-TLPhotoPicker_Example/Pods-TLPhotoPicker_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/TLPhotoPicker/TLPhotoPicker.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -310,7 +310,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TLPhotoPicker_Example/Pods-TLPhotoPicker_Example-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TLPhotoPicker_Example/Pods-TLPhotoPicker_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -464,11 +464,11 @@
 			baseConfigurationReference = F047F54580DD32436AB0F8F6 /* Pods-TLPhotoPicker_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = RNR9A42JW9;
+				DEVELOPMENT_TEAM = XX67K39342;
 				INFOPLIST_FILE = TLPhotoPicker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.coop-kobe.CoopKobeAppDist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 			};
@@ -479,11 +479,11 @@
 			baseConfigurationReference = FF774390FCDE758A51AF70EF /* Pods-TLPhotoPicker_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = RNR9A42JW9;
+				DEVELOPMENT_TEAM = XX67K39342;
 				INFOPLIST_FILE = TLPhotoPicker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.coop-kobe.CoopKobeAppDist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 			};

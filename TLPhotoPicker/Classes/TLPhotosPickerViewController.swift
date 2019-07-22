@@ -979,6 +979,7 @@ extension TLPhotosPickerViewController: UICollectionViewDelegate,UICollectionVie
     }
     
     public func collectionView(_ collectionView: UICollectionView, willDisplay cell: UICollectionViewCell, forItemAt indexPath: IndexPath) {
+        self.orderUpdateCells()
         if self.usedPrefetch, let cell = cell as? TLPhotoCollectionViewCell, let collection = self.focusedCollection, let asset = collection.getTLAsset(at: indexPath) {
             if let selectedAsset = getSelectedAssets(asset) {
                 cell.selectedAsset = true
