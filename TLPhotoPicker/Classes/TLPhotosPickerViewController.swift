@@ -1006,6 +1006,7 @@ extension TLPhotosPickerViewController: UICollectionViewDelegate,UICollectionVie
         guard let cell = cell as? TLPhotoCollectionViewCell else {
             return
         }
+        self.orderUpdateCells()
         cell.willDisplayCell()
         if self.usedPrefetch, let collection = self.focusedCollection, let asset = collection.getTLAsset(at: indexPath) {
             if let selectedAsset = getSelectedAssets(asset) {

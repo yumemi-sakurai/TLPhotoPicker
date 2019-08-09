@@ -7,105 +7,105 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0BB2A91C83BC079334687FB84151BDB9 /* TLCollectionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02482C45A6198FB37C7B6B24E2FD6B4 /* TLCollectionTableViewCell.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		2283230B5625CC46E7FC24AD23EE0501 /* TLAssetCollection+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE0CD1B3C88D41C2759DEA2552A946A /* TLAssetCollection+Extension.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		22D58B567F9717FFC59CD716C662426F /* TLPhotosPickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83633C3BE1C3CACDE65E7D325F43902B /* TLPhotosPickerViewController.xib */; };
-		28643EC4FAFACA2BB28E072DEE94F13C /* TLCollectionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0DAF2ABF719073C517E521CBA0FDAE9C /* TLCollectionTableViewCell.xib */; };
-		28A9C911DC04C5246DD19BAE64805C69 /* TLPhotosPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62921AD4988FD3C1CE9068FD348E4B63 /* TLPhotosPickerViewController.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		2C4FF86C4CE2909A1931571866A324D6 /* TLPhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD66BDF53641D394BC2DA4223BD3D149 /* TLPhotoCollectionViewCell.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		4271D25DE4A9B7488FAB6248267297B6 /* TLPhotoPicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F87FC9306272805D2E250D6BEC4920D /* TLPhotoPicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		757688C16D500E406C2617F7A36B4BA3 /* Pods-TLPhotoPicker_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 33D0B123B1A3E37D101C007C5605E05B /* Pods-TLPhotoPicker_Example-dummy.m */; };
-		9153E9379CFDA86AF18FAC0F6D7A7313 /* TLPhotoLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51A1C1BCFA727241260B0E569267104 /* TLPhotoLibrary.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		9A88DD1C5266646DF118E820B8ED3A13 /* TLPhotoPickerController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6459E38717FB6E7A1B4BAD816900575E /* TLPhotoPickerController.bundle */; };
-		A9F6E75A5386C559BDE15272F11B7605 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		B49BC41574E67827261E9EE814C74581 /* TLPhotopickerDataSourcesProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567F5F016559B2D129BC7886C78C993E /* TLPhotopickerDataSourcesProtocol.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		B5B1E240C137E9E00FA29E6242965E2F /* TLAlbumPopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66698C5BC331F49D74562B0BBB040CB4 /* TLAlbumPopView.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		B8341E5F0C59F3555C1CFF02AAA9F801 /* TLAssetsCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3387E1B47C095DA0DC4A1D6E301D5C /* TLAssetsCollection.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		C7223DA423837E947570A94C8130D1B2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		C8189C659DE44B0AE8340195AFD34F3B /* TLBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9F0FFFEF0F94B34CC3A9E23CC9DB8C /* TLBundle.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		CF3D73E08E00AF33D80C909CB1FA0A9E /* SynchronizedDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3871ACF8D8748DA6DDDAC94F6200808C /* SynchronizedDictionary.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		E3585695C7B72562822A0D5038D7F7E4 /* Pods-TLPhotoPicker_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B20CD8E34CC6A00EBAFA144F365FE61D /* Pods-TLPhotoPicker_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E7DE7D047FDE3394496393C4EC366A74 /* TLPhotoCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6692D562BEEFD5EC08C8787508277890 /* TLPhotoCollectionViewCell.xib */; };
-		F2764DE9D172B45C180D6E94F089CD51 /* TLPhotoPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 12AE701B5E427B7886EF3D5A205C0D47 /* TLPhotoPicker-dummy.m */; };
-		F532958B84C8155B275980BD20143149 /* TLPhotoPicker.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 84AC5A45966A4F2670BAD3779D540993 /* TLPhotoPicker.bundle */; };
+		0F98BE579D2DF8F104DEC2BB5CA6BB2D /* TLPhotoPicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EF649CE497AAB871F126E2B44795289 /* TLPhotoPicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		300630A51DE25B990A2C4B5BA0F44E7F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		3E40981C139A575DEEF64DFA7BEDF74A /* TLPhotoPicker.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C8C6E1BE6D4ADFD0CEC50AE8305BF3CD /* TLPhotoPicker.bundle */; };
+		40BA6159A42B4F5968588276FAAF89DA /* TLCollectionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AEE15F33E27C61366BF4CF7CB8900980 /* TLCollectionTableViewCell.xib */; };
+		47DDB54E86DBCC5146BDAA6A1040D453 /* TLPhotoPickerController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B4F2D8CEF89BF6A284BD215279D27112 /* TLPhotoPickerController.bundle */; };
+		4C1893DDE548E5F35DEA4FCE6FCC4FCC /* Pods-TLPhotoPicker_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A2EA640357BB64A335E9E193CF48D2A /* Pods-TLPhotoPicker_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5388114E41FB12FFDEF3F28A3C27F5B8 /* TLBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5386B95599F06002837E7D7C8E9FD9 /* TLBundle.swift */; };
+		5CC2AF6D019E010B9CBD0BDE9061009B /* TLPhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9880CFE01DC49BAF46D9E1A8044A14 /* TLPhotoCollectionViewCell.swift */; };
+		5F6E26EEBF52CD95E4FFEEEAACF7C795 /* TLPhotopickerDataSourcesProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19BB22F3F4E24FC07B0CAE81506B17B8 /* TLPhotopickerDataSourcesProtocol.swift */; };
+		61204A50B1F6F2E35861A5E9079BBECE /* TLPhotosPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D451EC2D6BF5E0A40030D0A6A7AD73 /* TLPhotosPickerViewController.swift */; };
+		7E999471175A08B9003E0A184BC70390 /* TLPhotoLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31A2F1CB4CB96D31EE9B2F72A2079A4 /* TLPhotoLibrary.swift */; };
+		81D61BFF8043F43F96FCA5D0BACE8D53 /* TLPhotosPickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B61188826045F167D0A72BD0BABDF8A /* TLPhotosPickerViewController.xib */; };
+		8B27C2BF8404A535D5BF6068F12DA716 /* TLPhotoCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7203DDD772721B93E03FBD3C54C15946 /* TLPhotoCollectionViewCell.xib */; };
+		9F186C1C84918F493B7336B85973E4AE /* TLPhotoPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 008CBE9AEBFEB31ADDAC05D1133E48CD /* TLPhotoPicker-dummy.m */; };
+		B0D5C49DA8CD11E83FE39DE83C84813B /* Pods-TLPhotoPicker_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 82EAB5BB76CCFCCB07CFFFB7EE9DBBC9 /* Pods-TLPhotoPicker_Example-dummy.m */; };
+		E36A2CB59E38C32380DE3EAB83A3A143 /* TLAssetsCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A38900C82581A44FFE740C817B39212 /* TLAssetsCollection.swift */; };
+		EC80D092CF3E7C581094DCCFEFAD8D95 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		EFD6F56A132D7598A513E06A5D0A2189 /* TLAssetCollection+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E524C2D4CF95B1B3748CF11853F523F4 /* TLAssetCollection+Extension.swift */; };
+		F03181D5857E1415AD309B073EA001D2 /* SynchronizedDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE1C404A5AC787F86CE6CFA3E1F7246 /* SynchronizedDictionary.swift */; };
+		F88C12156EA3A09B55BC72D278BF167A /* TLCollectionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F797737F8A12F7A172E3C9E1D9AF0494 /* TLCollectionTableViewCell.swift */; };
+		FAC61F01DD9859E1B5672D732E3153F0 /* TLAlbumPopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 462A88F5E000AF5EA0BF817D876CC230 /* TLAlbumPopView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		48BF99E79C522996563F7050B6205BF5 /* PBXContainerItemProxy */ = {
+		DA4BA900730978C71D4280BD2C46896C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = DD0AD2E5A6740661DD1E78F70D4C4FA2;
-			remoteInfo = "TLPhotoPicker-TLPhotoPicker";
-		};
-		AC500622FF15D69B6E34F066F8D1FF55 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A336978F4847D0D6183059D2D937FA8A;
+			remoteGlobalIDString = F9241C3812D02BCBB2AA4D3936BD3909;
 			remoteInfo = TLPhotoPicker;
+		};
+		EE1BB9F179A05902E63D4A99D1C63CE0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0E25D4105A6FD573D0B380E936CC9E11;
+			remoteInfo = "TLPhotoPicker-TLPhotoPicker";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0234AF5C183D1F321BC76C22C593931B /* TLPhotoPicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TLPhotoPicker.modulemap; sourceTree = "<group>"; };
-		0DAF2ABF719073C517E521CBA0FDAE9C /* TLCollectionTableViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = TLCollectionTableViewCell.xib; path = TLPhotoPicker/Classes/TLCollectionTableViewCell.xib; sourceTree = "<group>"; };
-		12AE701B5E427B7886EF3D5A205C0D47 /* TLPhotoPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TLPhotoPicker-dummy.m"; sourceTree = "<group>"; };
-		29D64499552246DEF200245951B7D626 /* TLPhotoPicker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TLPhotoPicker-Info.plist"; sourceTree = "<group>"; };
-		33D0B123B1A3E37D101C007C5605E05B /* Pods-TLPhotoPicker_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TLPhotoPicker_Example-dummy.m"; sourceTree = "<group>"; };
-		37DB733B9137DE673D90B615F1113644 /* ResourceBundle-TLPhotoPicker-TLPhotoPicker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-TLPhotoPicker-TLPhotoPicker-Info.plist"; sourceTree = "<group>"; };
-		3871ACF8D8748DA6DDDAC94F6200808C /* SynchronizedDictionary.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SynchronizedDictionary.swift; path = TLPhotoPicker/Classes/SynchronizedDictionary.swift; sourceTree = "<group>"; };
-		48534D78E0274A161F1BF3F1292E40DE /* Pods-TLPhotoPicker_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TLPhotoPicker_Example-Info.plist"; sourceTree = "<group>"; };
-		55F79631281CFED5A57D040C1CE6D38B /* TLPhotoPicker.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TLPhotoPicker.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		567F5F016559B2D129BC7886C78C993E /* TLPhotopickerDataSourcesProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TLPhotopickerDataSourcesProtocol.swift; path = TLPhotoPicker/Classes/TLPhotopickerDataSourcesProtocol.swift; sourceTree = "<group>"; };
-		5F87FC9306272805D2E250D6BEC4920D /* TLPhotoPicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TLPhotoPicker-umbrella.h"; sourceTree = "<group>"; };
-		6147EC62CC57E6D7EA82C82D9A7824DD /* TLPhotoPicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TLPhotoPicker-prefix.pch"; sourceTree = "<group>"; };
-		62921AD4988FD3C1CE9068FD348E4B63 /* TLPhotosPickerViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TLPhotosPickerViewController.swift; path = TLPhotoPicker/Classes/TLPhotosPickerViewController.swift; sourceTree = "<group>"; };
-		6459E38717FB6E7A1B4BAD816900575E /* TLPhotoPickerController.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = TLPhotoPickerController.bundle; path = TLPhotoPicker/TLPhotoPickerController.bundle; sourceTree = "<group>"; };
-		66698C5BC331F49D74562B0BBB040CB4 /* TLAlbumPopView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TLAlbumPopView.swift; path = TLPhotoPicker/Classes/TLAlbumPopView.swift; sourceTree = "<group>"; };
-		6692D562BEEFD5EC08C8787508277890 /* TLPhotoCollectionViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = TLPhotoCollectionViewCell.xib; path = TLPhotoPicker/Classes/TLPhotoCollectionViewCell.xib; sourceTree = "<group>"; };
-		7A321D70C42B4C687CC609DF2FEE3EB2 /* Pods-TLPhotoPicker_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TLPhotoPicker_Example.release.xcconfig"; sourceTree = "<group>"; };
-		7FE0CD1B3C88D41C2759DEA2552A946A /* TLAssetCollection+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "TLAssetCollection+Extension.swift"; path = "TLPhotoPicker/Classes/TLAssetCollection+Extension.swift"; sourceTree = "<group>"; };
-		83633C3BE1C3CACDE65E7D325F43902B /* TLPhotosPickerViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = TLPhotosPickerViewController.xib; path = TLPhotoPicker/Classes/TLPhotosPickerViewController.xib; sourceTree = "<group>"; };
-		84AC5A45966A4F2670BAD3779D540993 /* TLPhotoPicker.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = TLPhotoPicker.bundle; path = "TLPhotoPicker-TLPhotoPicker.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
-		880C8D335C9F66D711E179E2E50C6DEC /* TLPhotoPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TLPhotoPicker.framework; path = TLPhotoPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		008CBE9AEBFEB31ADDAC05D1133E48CD /* TLPhotoPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TLPhotoPicker-dummy.m"; sourceTree = "<group>"; };
+		0A38900C82581A44FFE740C817B39212 /* TLAssetsCollection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TLAssetsCollection.swift; path = TLPhotoPicker/Classes/TLAssetsCollection.swift; sourceTree = "<group>"; };
+		0B4F6C98E9F235ECA063AA425653E3FD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		19BB22F3F4E24FC07B0CAE81506B17B8 /* TLPhotopickerDataSourcesProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TLPhotopickerDataSourcesProtocol.swift; path = TLPhotoPicker/Classes/TLPhotopickerDataSourcesProtocol.swift; sourceTree = "<group>"; };
+		235AE0E129CDB90DB2DF72CA59C75867 /* Pods_TLPhotoPicker_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TLPhotoPicker_Example.framework; path = "Pods-TLPhotoPicker_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		28FEBF03C2D5B028D0C55D99B129793A /* TLPhotoPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TLPhotoPicker.framework; path = TLPhotoPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		29D451EC2D6BF5E0A40030D0A6A7AD73 /* TLPhotosPickerViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TLPhotosPickerViewController.swift; path = TLPhotoPicker/Classes/TLPhotosPickerViewController.swift; sourceTree = "<group>"; };
+		2F5386B95599F06002837E7D7C8E9FD9 /* TLBundle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TLBundle.swift; path = TLPhotoPicker/Classes/TLBundle.swift; sourceTree = "<group>"; };
+		2FE1C404A5AC787F86CE6CFA3E1F7246 /* SynchronizedDictionary.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SynchronizedDictionary.swift; path = TLPhotoPicker/Classes/SynchronizedDictionary.swift; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3230BA27DAB2E7A91A329730D2415186 /* TLPhotoPicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TLPhotoPicker.modulemap; sourceTree = "<group>"; };
+		38A9A8F41288CBBFE051F25A6877051A /* Pods-TLPhotoPicker_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TLPhotoPicker_Example.modulemap"; sourceTree = "<group>"; };
+		462A88F5E000AF5EA0BF817D876CC230 /* TLAlbumPopView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TLAlbumPopView.swift; path = TLPhotoPicker/Classes/TLAlbumPopView.swift; sourceTree = "<group>"; };
+		5004BCA41E5B48752A4D3FD8C20821FF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		5A2EA640357BB64A335E9E193CF48D2A /* Pods-TLPhotoPicker_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TLPhotoPicker_Example-umbrella.h"; sourceTree = "<group>"; };
+		5B61188826045F167D0A72BD0BABDF8A /* TLPhotosPickerViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = TLPhotosPickerViewController.xib; path = TLPhotoPicker/Classes/TLPhotosPickerViewController.xib; sourceTree = "<group>"; };
+		656983060EE06F5E1E59D0A27914868C /* Pods-TLPhotoPicker_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TLPhotoPicker_Example-Info.plist"; sourceTree = "<group>"; };
+		7203DDD772721B93E03FBD3C54C15946 /* TLPhotoCollectionViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = TLPhotoCollectionViewCell.xib; path = TLPhotoPicker/Classes/TLPhotoCollectionViewCell.xib; sourceTree = "<group>"; };
+		82EAB5BB76CCFCCB07CFFFB7EE9DBBC9 /* Pods-TLPhotoPicker_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TLPhotoPicker_Example-dummy.m"; sourceTree = "<group>"; };
+		8395ACF998CBFF91AE087039714A3DF3 /* TLPhotoPicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TLPhotoPicker.xcconfig; sourceTree = "<group>"; };
+		944644C47B2EAB3DC64962C3672004BC /* TLPhotoPicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TLPhotoPicker-prefix.pch"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A89587B3BFF4BBD80F495A1B4CC3A479 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		AC3387E1B47C095DA0DC4A1D6E301D5C /* TLAssetsCollection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TLAssetsCollection.swift; path = TLPhotoPicker/Classes/TLAssetsCollection.swift; sourceTree = "<group>"; };
-		AD66BDF53641D394BC2DA4223BD3D149 /* TLPhotoCollectionViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TLPhotoCollectionViewCell.swift; path = TLPhotoPicker/Classes/TLPhotoCollectionViewCell.swift; sourceTree = "<group>"; };
-		B02482C45A6198FB37C7B6B24E2FD6B4 /* TLCollectionTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TLCollectionTableViewCell.swift; path = TLPhotoPicker/Classes/TLCollectionTableViewCell.swift; sourceTree = "<group>"; };
-		B08DC597818EEF4B4C854D58600F83A4 /* Pods_TLPhotoPicker_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TLPhotoPicker_Example.framework; path = "Pods-TLPhotoPicker_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B20CD8E34CC6A00EBAFA144F365FE61D /* Pods-TLPhotoPicker_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TLPhotoPicker_Example-umbrella.h"; sourceTree = "<group>"; };
-		C8578C9D701F1AE01486268B45D041FB /* Pods-TLPhotoPicker_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TLPhotoPicker_Example-frameworks.sh"; sourceTree = "<group>"; };
-		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		CD07D7420037189E40034599F6012300 /* Pods-TLPhotoPicker_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TLPhotoPicker_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D51A1C1BCFA727241260B0E569267104 /* TLPhotoLibrary.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TLPhotoLibrary.swift; path = TLPhotoPicker/Classes/TLPhotoLibrary.swift; sourceTree = "<group>"; };
-		DB767DEE5977B5C515B9BFAD85502446 /* TLPhotoPicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TLPhotoPicker.xcconfig; sourceTree = "<group>"; };
-		DE9F0FFFEF0F94B34CC3A9E23CC9DB8C /* TLBundle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TLBundle.swift; path = TLPhotoPicker/Classes/TLBundle.swift; sourceTree = "<group>"; };
-		DF0ABD6509BA9A009D9C239B1A9B0DE1 /* Pods-TLPhotoPicker_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TLPhotoPicker_Example.modulemap"; sourceTree = "<group>"; };
-		E1BE5ED9C6B398EE83BEA983F1586E23 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		E43307D6897FDE2509C53576B6F3E9FE /* Pods-TLPhotoPicker_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TLPhotoPicker_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		FFBC43C5C929EDAE0CE231CFA8E2B48D /* Pods-TLPhotoPicker_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TLPhotoPicker_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		9EF649CE497AAB871F126E2B44795289 /* TLPhotoPicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TLPhotoPicker-umbrella.h"; sourceTree = "<group>"; };
+		AEE15F33E27C61366BF4CF7CB8900980 /* TLCollectionTableViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = TLCollectionTableViewCell.xib; path = TLPhotoPicker/Classes/TLCollectionTableViewCell.xib; sourceTree = "<group>"; };
+		B4F2D8CEF89BF6A284BD215279D27112 /* TLPhotoPickerController.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = TLPhotoPickerController.bundle; path = TLPhotoPicker/TLPhotoPickerController.bundle; sourceTree = "<group>"; };
+		B6B58D6F9D2A795933FD776B8F0DAE94 /* Pods-TLPhotoPicker_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TLPhotoPicker_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BA9880CFE01DC49BAF46D9E1A8044A14 /* TLPhotoCollectionViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TLPhotoCollectionViewCell.swift; path = TLPhotoPicker/Classes/TLPhotoCollectionViewCell.swift; sourceTree = "<group>"; };
+		C8C6E1BE6D4ADFD0CEC50AE8305BF3CD /* TLPhotoPicker.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = TLPhotoPicker.bundle; path = "TLPhotoPicker-TLPhotoPicker.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCE639590461AC798099C67C624ED5FE /* Pods-TLPhotoPicker_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TLPhotoPicker_Example-frameworks.sh"; sourceTree = "<group>"; };
+		D48F3DE9D5BA30F88B46A0E8B8C2D4BE /* TLPhotoPicker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TLPhotoPicker-Info.plist"; sourceTree = "<group>"; };
+		E0B71E01AC2C20B784BE056F1D7AE5C0 /* TLPhotoPicker.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TLPhotoPicker.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E31A2F1CB4CB96D31EE9B2F72A2079A4 /* TLPhotoLibrary.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TLPhotoLibrary.swift; path = TLPhotoPicker/Classes/TLPhotoLibrary.swift; sourceTree = "<group>"; };
+		E524C2D4CF95B1B3748CF11853F523F4 /* TLAssetCollection+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "TLAssetCollection+Extension.swift"; path = "TLPhotoPicker/Classes/TLAssetCollection+Extension.swift"; sourceTree = "<group>"; };
+		E757D8895730FE9406C316E605786C25 /* Pods-TLPhotoPicker_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TLPhotoPicker_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		F72CDDD5C17B50A1D30BC6142C47B955 /* Pods-TLPhotoPicker_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TLPhotoPicker_Example.release.xcconfig"; sourceTree = "<group>"; };
+		F797737F8A12F7A172E3C9E1D9AF0494 /* TLCollectionTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TLCollectionTableViewCell.swift; path = TLPhotoPicker/Classes/TLCollectionTableViewCell.swift; sourceTree = "<group>"; };
+		F7EAE6472DA940A3FF9EE0310BA81D58 /* Pods-TLPhotoPicker_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TLPhotoPicker_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		FE4FE329302AD14BFB90139E7C732F8E /* ResourceBundle-TLPhotoPicker-TLPhotoPicker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-TLPhotoPicker-TLPhotoPicker-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		A90EC622DB6D2BC181C13059ADCF5C01 /* Frameworks */ = {
+		0F147FE910B80AC5F164C27A5CB13D30 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A9F6E75A5386C559BDE15272F11B7605 /* Foundation.framework in Frameworks */,
+				EC80D092CF3E7C581094DCCFEFAD8D95 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E2FE0DBFF4DE20514501F6672023842A /* Frameworks */ = {
+		122FBA92F5B0F8A0DC0126F706D81DAC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C7223DA423837E947570A94C8130D1B2 /* Foundation.framework in Frameworks */,
+				300630A51DE25B990A2C4B5BA0F44E7F /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F2DBB1843F928282166D0B52FB1AB956 /* Frameworks */ = {
+		38AAC61EDD4F9B80D540773AF8792A26 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -115,63 +115,84 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0426550C5C071A5DC68E20530F247B56 /* Products */ = {
+		1AF4343951327B241AF507262DC5CF84 /* Pods-TLPhotoPicker_Example */ = {
 			isa = PBXGroup;
 			children = (
-				B08DC597818EEF4B4C854D58600F83A4 /* Pods_TLPhotoPicker_Example.framework */,
-				84AC5A45966A4F2670BAD3779D540993 /* TLPhotoPicker.bundle */,
-				880C8D335C9F66D711E179E2E50C6DEC /* TLPhotoPicker.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		077C0E43E73054E8550DB44A3588128D /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				37DB733B9137DE673D90B615F1113644 /* ResourceBundle-TLPhotoPicker-TLPhotoPicker-Info.plist */,
-				0234AF5C183D1F321BC76C22C593931B /* TLPhotoPicker.modulemap */,
-				DB767DEE5977B5C515B9BFAD85502446 /* TLPhotoPicker.xcconfig */,
-				12AE701B5E427B7886EF3D5A205C0D47 /* TLPhotoPicker-dummy.m */,
-				29D64499552246DEF200245951B7D626 /* TLPhotoPicker-Info.plist */,
-				6147EC62CC57E6D7EA82C82D9A7824DD /* TLPhotoPicker-prefix.pch */,
-				5F87FC9306272805D2E250D6BEC4920D /* TLPhotoPicker-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/TLPhotoPicker";
-			sourceTree = "<group>";
-		};
-		386A3FC0A8230EF9BCEEDA7D6775E87E /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				0DAF2ABF719073C517E521CBA0FDAE9C /* TLCollectionTableViewCell.xib */,
-				6692D562BEEFD5EC08C8787508277890 /* TLPhotoCollectionViewCell.xib */,
-				6459E38717FB6E7A1B4BAD816900575E /* TLPhotoPickerController.bundle */,
-				83633C3BE1C3CACDE65E7D325F43902B /* TLPhotosPickerViewController.xib */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		57DF3CFFD56466A628D5F7121511AEC4 /* Pods-TLPhotoPicker_Example */ = {
-			isa = PBXGroup;
-			children = (
-				DF0ABD6509BA9A009D9C239B1A9B0DE1 /* Pods-TLPhotoPicker_Example.modulemap */,
-				CD07D7420037189E40034599F6012300 /* Pods-TLPhotoPicker_Example-acknowledgements.markdown */,
-				FFBC43C5C929EDAE0CE231CFA8E2B48D /* Pods-TLPhotoPicker_Example-acknowledgements.plist */,
-				33D0B123B1A3E37D101C007C5605E05B /* Pods-TLPhotoPicker_Example-dummy.m */,
-				C8578C9D701F1AE01486268B45D041FB /* Pods-TLPhotoPicker_Example-frameworks.sh */,
-				48534D78E0274A161F1BF3F1292E40DE /* Pods-TLPhotoPicker_Example-Info.plist */,
-				B20CD8E34CC6A00EBAFA144F365FE61D /* Pods-TLPhotoPicker_Example-umbrella.h */,
-				E43307D6897FDE2509C53576B6F3E9FE /* Pods-TLPhotoPicker_Example.debug.xcconfig */,
-				7A321D70C42B4C687CC609DF2FEE3EB2 /* Pods-TLPhotoPicker_Example.release.xcconfig */,
+				38A9A8F41288CBBFE051F25A6877051A /* Pods-TLPhotoPicker_Example.modulemap */,
+				B6B58D6F9D2A795933FD776B8F0DAE94 /* Pods-TLPhotoPicker_Example-acknowledgements.markdown */,
+				E757D8895730FE9406C316E605786C25 /* Pods-TLPhotoPicker_Example-acknowledgements.plist */,
+				82EAB5BB76CCFCCB07CFFFB7EE9DBBC9 /* Pods-TLPhotoPicker_Example-dummy.m */,
+				CCE639590461AC798099C67C624ED5FE /* Pods-TLPhotoPicker_Example-frameworks.sh */,
+				656983060EE06F5E1E59D0A27914868C /* Pods-TLPhotoPicker_Example-Info.plist */,
+				5A2EA640357BB64A335E9E193CF48D2A /* Pods-TLPhotoPicker_Example-umbrella.h */,
+				F7EAE6472DA940A3FF9EE0310BA81D58 /* Pods-TLPhotoPicker_Example.debug.xcconfig */,
+				F72CDDD5C17B50A1D30BC6142C47B955 /* Pods-TLPhotoPicker_Example.release.xcconfig */,
 			);
 			name = "Pods-TLPhotoPicker_Example";
 			path = "Target Support Files/Pods-TLPhotoPicker_Example";
 			sourceTree = "<group>";
 		};
-		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
+		2EF77B9C6C8722C4F76E390B7A5E23B9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
+				235AE0E129CDB90DB2DF72CA59C75867 /* Pods_TLPhotoPicker_Example.framework */,
+				C8C6E1BE6D4ADFD0CEC50AE8305BF3CD /* TLPhotoPicker.bundle */,
+				28FEBF03C2D5B028D0C55D99B129793A /* TLPhotoPicker.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3BF5CC644F4B7591810D0A8F45490C8B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AEE15F33E27C61366BF4CF7CB8900980 /* TLCollectionTableViewCell.xib */,
+				7203DDD772721B93E03FBD3C54C15946 /* TLPhotoCollectionViewCell.xib */,
+				B4F2D8CEF89BF6A284BD215279D27112 /* TLPhotoPickerController.bundle */,
+				5B61188826045F167D0A72BD0BABDF8A /* TLPhotosPickerViewController.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		53AD57595032A84CF27D42CB68622F4B /* TLPhotoPicker */ = {
+			isa = PBXGroup;
+			children = (
+				2FE1C404A5AC787F86CE6CFA3E1F7246 /* SynchronizedDictionary.swift */,
+				462A88F5E000AF5EA0BF817D876CC230 /* TLAlbumPopView.swift */,
+				E524C2D4CF95B1B3748CF11853F523F4 /* TLAssetCollection+Extension.swift */,
+				0A38900C82581A44FFE740C817B39212 /* TLAssetsCollection.swift */,
+				2F5386B95599F06002837E7D7C8E9FD9 /* TLBundle.swift */,
+				F797737F8A12F7A172E3C9E1D9AF0494 /* TLCollectionTableViewCell.swift */,
+				BA9880CFE01DC49BAF46D9E1A8044A14 /* TLPhotoCollectionViewCell.swift */,
+				E31A2F1CB4CB96D31EE9B2F72A2079A4 /* TLPhotoLibrary.swift */,
+				19BB22F3F4E24FC07B0CAE81506B17B8 /* TLPhotopickerDataSourcesProtocol.swift */,
+				29D451EC2D6BF5E0A40030D0A6A7AD73 /* TLPhotosPickerViewController.swift */,
+				CF8111D8DA47D96E0F7FD537AC44B9EF /* Pod */,
+				3BF5CC644F4B7591810D0A8F45490C8B /* Resources */,
+				7B1B9CF6CB63345973F6329810D8ED61 /* Support Files */,
+			);
+			name = TLPhotoPicker;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7B1B9CF6CB63345973F6329810D8ED61 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FE4FE329302AD14BFB90139E7C732F8E /* ResourceBundle-TLPhotoPicker-TLPhotoPicker-Info.plist */,
+				3230BA27DAB2E7A91A329730D2415186 /* TLPhotoPicker.modulemap */,
+				8395ACF998CBFF91AE087039714A3DF3 /* TLPhotoPicker.xcconfig */,
+				008CBE9AEBFEB31ADDAC05D1133E48CD /* TLPhotoPicker-dummy.m */,
+				D48F3DE9D5BA30F88B46A0E8B8C2D4BE /* TLPhotoPicker-Info.plist */,
+				944644C47B2EAB3DC64962C3672004BC /* TLPhotoPicker-prefix.pch */,
+				9EF649CE497AAB871F126E2B44795289 /* TLPhotoPicker-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TLPhotoPicker";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
@@ -182,54 +203,33 @@
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				FC09F40DDBF4F3FBD258ACD81CC5EF10 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				0426550C5C071A5DC68E20530F247B56 /* Products */,
+				2EF77B9C6C8722C4F76E390B7A5E23B9 /* Products */,
 				EFCAAC5BBE2F6E4FE0CE7C801808D334 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		CF8111D8DA47D96E0F7FD537AC44B9EF /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				5004BCA41E5B48752A4D3FD8C20821FF /* LICENSE */,
+				0B4F6C98E9F235ECA063AA425653E3FD /* README.md */,
+				E0B71E01AC2C20B784BE056F1D7AE5C0 /* TLPhotoPicker.podspec */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		E26D7A6A2EA37F60FE1C0841AD65AA7F /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				E1BE5ED9C6B398EE83BEA983F1586E23 /* LICENSE */,
-				A89587B3BFF4BBD80F495A1B4CC3A479 /* README.md */,
-				55F79631281CFED5A57D040C1CE6D38B /* TLPhotoPicker.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		EBE2D005BF54EBF517A5909CE9ACD084 /* TLPhotoPicker */ = {
-			isa = PBXGroup;
-			children = (
-				3871ACF8D8748DA6DDDAC94F6200808C /* SynchronizedDictionary.swift */,
-				66698C5BC331F49D74562B0BBB040CB4 /* TLAlbumPopView.swift */,
-				7FE0CD1B3C88D41C2759DEA2552A946A /* TLAssetCollection+Extension.swift */,
-				AC3387E1B47C095DA0DC4A1D6E301D5C /* TLAssetsCollection.swift */,
-				DE9F0FFFEF0F94B34CC3A9E23CC9DB8C /* TLBundle.swift */,
-				B02482C45A6198FB37C7B6B24E2FD6B4 /* TLCollectionTableViewCell.swift */,
-				AD66BDF53641D394BC2DA4223BD3D149 /* TLPhotoCollectionViewCell.swift */,
-				D51A1C1BCFA727241260B0E569267104 /* TLPhotoLibrary.swift */,
-				567F5F016559B2D129BC7886C78C993E /* TLPhotopickerDataSourcesProtocol.swift */,
-				62921AD4988FD3C1CE9068FD348E4B63 /* TLPhotosPickerViewController.swift */,
-				E26D7A6A2EA37F60FE1C0841AD65AA7F /* Pod */,
-				386A3FC0A8230EF9BCEEDA7D6775E87E /* Resources */,
-				077C0E43E73054E8550DB44A3588128D /* Support Files */,
-			);
-			name = TLPhotoPicker;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		EFCAAC5BBE2F6E4FE0CE7C801808D334 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				57DF3CFFD56466A628D5F7121511AEC4 /* Pods-TLPhotoPicker_Example */,
+				1AF4343951327B241AF507262DC5CF84 /* Pods-TLPhotoPicker_Example */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
@@ -237,7 +237,7 @@
 		FC09F40DDBF4F3FBD258ACD81CC5EF10 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				EBE2D005BF54EBF517A5909CE9ACD084 /* TLPhotoPicker */,
+				53AD57595032A84CF27D42CB68622F4B /* TLPhotoPicker */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -245,70 +245,32 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		7CC4FC356D932EF8786153678F3E1624 /* Headers */ = {
+		78E7E3DB375A69A718A656710AE51DC2 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E3585695C7B72562822A0D5038D7F7E4 /* Pods-TLPhotoPicker_Example-umbrella.h in Headers */,
+				0F98BE579D2DF8F104DEC2BB5CA6BB2D /* TLPhotoPicker-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9978936DB3DF2038689B9BB6A5B870A0 /* Headers */ = {
+		CB37A7FA01FC60547C9D329A7D20214F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4271D25DE4A9B7488FAB6248267297B6 /* TLPhotoPicker-umbrella.h in Headers */,
+				4C1893DDE548E5F35DEA4FCE6FCC4FCC /* Pods-TLPhotoPicker_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		1F94ECE99BCA8EE47A540D4C36924459 /* Pods-TLPhotoPicker_Example */ = {
+		0E25D4105A6FD573D0B380E936CC9E11 /* TLPhotoPicker-TLPhotoPicker */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4F4A40AFE1AB78801816BF663ED6909A /* Build configuration list for PBXNativeTarget "Pods-TLPhotoPicker_Example" */;
+			buildConfigurationList = 3408987A488F31E7B95E073614BC5E99 /* Build configuration list for PBXNativeTarget "TLPhotoPicker-TLPhotoPicker" */;
 			buildPhases = (
-				7CC4FC356D932EF8786153678F3E1624 /* Headers */,
-				FE753DE581F5B94BABD24AD741E09350 /* Sources */,
-				A90EC622DB6D2BC181C13059ADCF5C01 /* Frameworks */,
-				FB390104E1D79DFF51BCE86614B8CFFD /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				4B8111BE71126FB444D8E31C51716ECB /* PBXTargetDependency */,
-			);
-			name = "Pods-TLPhotoPicker_Example";
-			productName = "Pods-TLPhotoPicker_Example";
-			productReference = B08DC597818EEF4B4C854D58600F83A4 /* Pods_TLPhotoPicker_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		A336978F4847D0D6183059D2D937FA8A /* TLPhotoPicker */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 46EC18EE36064649FE74E48BE7D5D9AF /* Build configuration list for PBXNativeTarget "TLPhotoPicker" */;
-			buildPhases = (
-				9978936DB3DF2038689B9BB6A5B870A0 /* Headers */,
-				08FCF3D4431075D05AE62BC5A8FB459A /* Sources */,
-				E2FE0DBFF4DE20514501F6672023842A /* Frameworks */,
-				B6EA61B22CAA1520AED73339E2D5251C /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				31B0CBAE576A0AC3ED01EBEE6ED0A6FC /* PBXTargetDependency */,
-			);
-			name = TLPhotoPicker;
-			productName = TLPhotoPicker;
-			productReference = 880C8D335C9F66D711E179E2E50C6DEC /* TLPhotoPicker.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		DD0AD2E5A6740661DD1E78F70D4C4FA2 /* TLPhotoPicker-TLPhotoPicker */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4239832AAF4744D874A757F2E1997300 /* Build configuration list for PBXNativeTarget "TLPhotoPicker-TLPhotoPicker" */;
-			buildPhases = (
-				FEC3A900F4F519625596128AA3C6A46A /* Sources */,
-				F2DBB1843F928282166D0B52FB1AB956 /* Frameworks */,
-				19CD2B9E1EE2A7CB84739CC23334DED4 /* Resources */,
+				064CAE8DA7EF59B83FE2540041A8076A /* Sources */,
+				38AAC61EDD4F9B80D540773AF8792A26 /* Frameworks */,
+				13810BE637F2D41B8A55CD6F2F9066EB /* Resources */,
 			);
 			buildRules = (
 			);
@@ -316,8 +278,46 @@
 			);
 			name = "TLPhotoPicker-TLPhotoPicker";
 			productName = "TLPhotoPicker-TLPhotoPicker";
-			productReference = 84AC5A45966A4F2670BAD3779D540993 /* TLPhotoPicker.bundle */;
+			productReference = C8C6E1BE6D4ADFD0CEC50AE8305BF3CD /* TLPhotoPicker.bundle */;
 			productType = "com.apple.product-type.bundle";
+		};
+		4BB26F3051CF321D8F0203D5B86E4347 /* Pods-TLPhotoPicker_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D271CA774C57A05CA7EC4D544C312BE9 /* Build configuration list for PBXNativeTarget "Pods-TLPhotoPicker_Example" */;
+			buildPhases = (
+				CB37A7FA01FC60547C9D329A7D20214F /* Headers */,
+				17488A3254EFB22B29F0726F7E290123 /* Sources */,
+				0F147FE910B80AC5F164C27A5CB13D30 /* Frameworks */,
+				03D5B5EF155A046CE46A4D3544A867F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				960E36D385D00595E24120D076B42145 /* PBXTargetDependency */,
+			);
+			name = "Pods-TLPhotoPicker_Example";
+			productName = "Pods-TLPhotoPicker_Example";
+			productReference = 235AE0E129CDB90DB2DF72CA59C75867 /* Pods_TLPhotoPicker_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F9241C3812D02BCBB2AA4D3936BD3909 /* TLPhotoPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F457B8AF1E1F650F735216D744518E2 /* Build configuration list for PBXNativeTarget "TLPhotoPicker" */;
+			buildPhases = (
+				78E7E3DB375A69A718A656710AE51DC2 /* Headers */,
+				28A1E298EFFD215B1222E6049E9AE625 /* Sources */,
+				122FBA92F5B0F8A0DC0126F706D81DAC /* Frameworks */,
+				8E76BBABAEAF391AAB0EFE5872ABCC97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8A55C8556150CF5BFDDEC11C57B3B2A8 /* PBXTargetDependency */,
+			);
+			name = TLPhotoPicker;
+			productName = TLPhotoPicker;
+			productReference = 28FEBF03C2D5B028D0C55D99B129793A /* TLPhotoPicker.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -325,112 +325,112 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 0426550C5C071A5DC68E20530F247B56 /* Products */;
+			productRefGroup = 2EF77B9C6C8722C4F76E390B7A5E23B9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1F94ECE99BCA8EE47A540D4C36924459 /* Pods-TLPhotoPicker_Example */,
-				A336978F4847D0D6183059D2D937FA8A /* TLPhotoPicker */,
-				DD0AD2E5A6740661DD1E78F70D4C4FA2 /* TLPhotoPicker-TLPhotoPicker */,
+				4BB26F3051CF321D8F0203D5B86E4347 /* Pods-TLPhotoPicker_Example */,
+				F9241C3812D02BCBB2AA4D3936BD3909 /* TLPhotoPicker */,
+				0E25D4105A6FD573D0B380E936CC9E11 /* TLPhotoPicker-TLPhotoPicker */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		19CD2B9E1EE2A7CB84739CC23334DED4 /* Resources */ = {
+		03D5B5EF155A046CE46A4D3544A867F4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28643EC4FAFACA2BB28E072DEE94F13C /* TLCollectionTableViewCell.xib in Resources */,
-				E7DE7D047FDE3394496393C4EC366A74 /* TLPhotoCollectionViewCell.xib in Resources */,
-				22D58B567F9717FFC59CD716C662426F /* TLPhotosPickerViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B6EA61B22CAA1520AED73339E2D5251C /* Resources */ = {
+		13810BE637F2D41B8A55CD6F2F9066EB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F532958B84C8155B275980BD20143149 /* TLPhotoPicker.bundle in Resources */,
-				9A88DD1C5266646DF118E820B8ED3A13 /* TLPhotoPickerController.bundle in Resources */,
+				40BA6159A42B4F5968588276FAAF89DA /* TLCollectionTableViewCell.xib in Resources */,
+				8B27C2BF8404A535D5BF6068F12DA716 /* TLPhotoCollectionViewCell.xib in Resources */,
+				81D61BFF8043F43F96FCA5D0BACE8D53 /* TLPhotosPickerViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FB390104E1D79DFF51BCE86614B8CFFD /* Resources */ = {
+		8E76BBABAEAF391AAB0EFE5872ABCC97 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E40981C139A575DEEF64DFA7BEDF74A /* TLPhotoPicker.bundle in Resources */,
+				47DDB54E86DBCC5146BDAA6A1040D453 /* TLPhotoPickerController.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		08FCF3D4431075D05AE62BC5A8FB459A /* Sources */ = {
+		064CAE8DA7EF59B83FE2540041A8076A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF3D73E08E00AF33D80C909CB1FA0A9E /* SynchronizedDictionary.swift in Sources */,
-				B5B1E240C137E9E00FA29E6242965E2F /* TLAlbumPopView.swift in Sources */,
-				2283230B5625CC46E7FC24AD23EE0501 /* TLAssetCollection+Extension.swift in Sources */,
-				B8341E5F0C59F3555C1CFF02AAA9F801 /* TLAssetsCollection.swift in Sources */,
-				C8189C659DE44B0AE8340195AFD34F3B /* TLBundle.swift in Sources */,
-				0BB2A91C83BC079334687FB84151BDB9 /* TLCollectionTableViewCell.swift in Sources */,
-				2C4FF86C4CE2909A1931571866A324D6 /* TLPhotoCollectionViewCell.swift in Sources */,
-				9153E9379CFDA86AF18FAC0F6D7A7313 /* TLPhotoLibrary.swift in Sources */,
-				F2764DE9D172B45C180D6E94F089CD51 /* TLPhotoPicker-dummy.m in Sources */,
-				B49BC41574E67827261E9EE814C74581 /* TLPhotopickerDataSourcesProtocol.swift in Sources */,
-				28A9C911DC04C5246DD19BAE64805C69 /* TLPhotosPickerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FE753DE581F5B94BABD24AD741E09350 /* Sources */ = {
+		17488A3254EFB22B29F0726F7E290123 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				757688C16D500E406C2617F7A36B4BA3 /* Pods-TLPhotoPicker_Example-dummy.m in Sources */,
+				B0D5C49DA8CD11E83FE39DE83C84813B /* Pods-TLPhotoPicker_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FEC3A900F4F519625596128AA3C6A46A /* Sources */ = {
+		28A1E298EFFD215B1222E6049E9AE625 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F03181D5857E1415AD309B073EA001D2 /* SynchronizedDictionary.swift in Sources */,
+				FAC61F01DD9859E1B5672D732E3153F0 /* TLAlbumPopView.swift in Sources */,
+				EFD6F56A132D7598A513E06A5D0A2189 /* TLAssetCollection+Extension.swift in Sources */,
+				E36A2CB59E38C32380DE3EAB83A3A143 /* TLAssetsCollection.swift in Sources */,
+				5388114E41FB12FFDEF3F28A3C27F5B8 /* TLBundle.swift in Sources */,
+				F88C12156EA3A09B55BC72D278BF167A /* TLCollectionTableViewCell.swift in Sources */,
+				5CC2AF6D019E010B9CBD0BDE9061009B /* TLPhotoCollectionViewCell.swift in Sources */,
+				7E999471175A08B9003E0A184BC70390 /* TLPhotoLibrary.swift in Sources */,
+				9F186C1C84918F493B7336B85973E4AE /* TLPhotoPicker-dummy.m in Sources */,
+				5F6E26EEBF52CD95E4FFEEEAACF7C795 /* TLPhotopickerDataSourcesProtocol.swift in Sources */,
+				61204A50B1F6F2E35861A5E9079BBECE /* TLPhotosPickerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		31B0CBAE576A0AC3ED01EBEE6ED0A6FC /* PBXTargetDependency */ = {
+		8A55C8556150CF5BFDDEC11C57B3B2A8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "TLPhotoPicker-TLPhotoPicker";
-			target = DD0AD2E5A6740661DD1E78F70D4C4FA2 /* TLPhotoPicker-TLPhotoPicker */;
-			targetProxy = 48BF99E79C522996563F7050B6205BF5 /* PBXContainerItemProxy */;
+			target = 0E25D4105A6FD573D0B380E936CC9E11 /* TLPhotoPicker-TLPhotoPicker */;
+			targetProxy = EE1BB9F179A05902E63D4A99D1C63CE0 /* PBXContainerItemProxy */;
 		};
-		4B8111BE71126FB444D8E31C51716ECB /* PBXTargetDependency */ = {
+		960E36D385D00595E24120D076B42145 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = TLPhotoPicker;
-			target = A336978F4847D0D6183059D2D937FA8A /* TLPhotoPicker */;
-			targetProxy = AC500622FF15D69B6E34F066F8D1FF55 /* PBXContainerItemProxy */;
+			target = F9241C3812D02BCBB2AA4D3936BD3909 /* TLPhotoPicker */;
+			targetProxy = DA4BA900730978C71D4280BD2C46896C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		12499253E36FE41F6A242ABB5E3009C5 /* Release */ = {
+		12515EC906EDDB4AC3B5DE6E926D568E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DB767DEE5977B5C515B9BFAD85502446 /* TLPhotoPicker.xcconfig */;
+			baseConfigurationReference = 8395ACF998CBFF91AE087039714A3DF3 /* TLPhotoPicker.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TLPhotoPicker";
@@ -444,9 +444,9 @@
 			};
 			name = Release;
 		};
-		17AA6A0E78FF7E5CF3DF372920366D36 /* Release */ = {
+		327788C4A7A3D7CF5CDA7FA2C9902C23 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DB767DEE5977B5C515B9BFAD85502446 /* TLPhotoPicker.xcconfig */;
+			baseConfigurationReference = 8395ACF998CBFF91AE087039714A3DF3 /* TLPhotoPicker.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -468,7 +468,36 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		332849FD89817326AE619DF545CE8A60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8395ACF998CBFF91AE087039714A3DF3 /* TLPhotoPicker.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TLPhotoPicker/TLPhotoPicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TLPhotoPicker/TLPhotoPicker-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TLPhotoPicker/TLPhotoPicker.modulemap";
+				PRODUCT_MODULE_NAME = TLPhotoPicker;
+				PRODUCT_NAME = TLPhotoPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -476,9 +505,9 @@
 			};
 			name = Release;
 		};
-		2DC5B38422C52C51A0C0A4906204718E /* Debug */ = {
+		87F3EA2919C8E885F5E12CBE93353B1A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DB767DEE5977B5C515B9BFAD85502446 /* TLPhotoPicker.xcconfig */;
+			baseConfigurationReference = 8395ACF998CBFF91AE087039714A3DF3 /* TLPhotoPicker.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TLPhotoPicker";
@@ -492,40 +521,7 @@
 			};
 			name = Debug;
 		};
-		37BEDA35431B4780BB82034E1F1768D1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E43307D6897FDE2509C53576B6F3E9FE /* Pods-TLPhotoPicker_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-TLPhotoPicker_Example/Pods-TLPhotoPicker_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-TLPhotoPicker_Example/Pods-TLPhotoPicker_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		691CC1D1546FBC2C5D0BD8419B91B2BC /* Debug */ = {
+		8B68D161A685D0E9906DF2B297857921 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -584,12 +580,79 @@
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		C4EC8138FE608AD706A5FDE37CEF06BB /* Release */ = {
+		DF3F614B153FEC19BA2576D459F05F16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7EAE6472DA940A3FF9EE0310BA81D58 /* Pods-TLPhotoPicker_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TLPhotoPicker_Example/Pods-TLPhotoPicker_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TLPhotoPicker_Example/Pods-TLPhotoPicker_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F2EFB1F3678807BEBD399D027557ECD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F72CDDD5C17B50A1D30BC6142C47B955 /* Pods-TLPhotoPicker_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TLPhotoPicker_Example/Pods-TLPhotoPicker_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TLPhotoPicker_Example/Pods-TLPhotoPicker_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F5D3D0BF744B9700EA072D8A99FA80C8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -644,93 +707,19 @@
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 4.2;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		C7D9DF14B31FAB1429C10893AD4C9968 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DB767DEE5977B5C515B9BFAD85502446 /* TLPhotoPicker.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/TLPhotoPicker/TLPhotoPicker-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/TLPhotoPicker/TLPhotoPicker-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/TLPhotoPicker/TLPhotoPicker.modulemap";
-				PRODUCT_MODULE_NAME = TLPhotoPicker;
-				PRODUCT_NAME = TLPhotoPicker;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		F1E96E6A5D5864E059F2B581E4E37412 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7A321D70C42B4C687CC609DF2FEE3EB2 /* Pods-TLPhotoPicker_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-TLPhotoPicker_Example/Pods-TLPhotoPicker_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-TLPhotoPicker_Example/Pods-TLPhotoPicker_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4239832AAF4744D874A757F2E1997300 /* Build configuration list for PBXNativeTarget "TLPhotoPicker-TLPhotoPicker" */ = {
+		3408987A488F31E7B95E073614BC5E99 /* Build configuration list for PBXNativeTarget "TLPhotoPicker-TLPhotoPicker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2DC5B38422C52C51A0C0A4906204718E /* Debug */,
-				12499253E36FE41F6A242ABB5E3009C5 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		46EC18EE36064649FE74E48BE7D5D9AF /* Build configuration list for PBXNativeTarget "TLPhotoPicker" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C7D9DF14B31FAB1429C10893AD4C9968 /* Debug */,
-				17AA6A0E78FF7E5CF3DF372920366D36 /* Release */,
+				87F3EA2919C8E885F5E12CBE93353B1A /* Debug */,
+				12515EC906EDDB4AC3B5DE6E926D568E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -738,17 +727,26 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				691CC1D1546FBC2C5D0BD8419B91B2BC /* Debug */,
-				C4EC8138FE608AD706A5FDE37CEF06BB /* Release */,
+				8B68D161A685D0E9906DF2B297857921 /* Debug */,
+				F5D3D0BF744B9700EA072D8A99FA80C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4F4A40AFE1AB78801816BF663ED6909A /* Build configuration list for PBXNativeTarget "Pods-TLPhotoPicker_Example" */ = {
+		7F457B8AF1E1F650F735216D744518E2 /* Build configuration list for PBXNativeTarget "TLPhotoPicker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				37BEDA35431B4780BB82034E1F1768D1 /* Debug */,
-				F1E96E6A5D5864E059F2B581E4E37412 /* Release */,
+				327788C4A7A3D7CF5CDA7FA2C9902C23 /* Debug */,
+				332849FD89817326AE619DF545CE8A60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D271CA774C57A05CA7EC4D544C312BE9 /* Build configuration list for PBXNativeTarget "Pods-TLPhotoPicker_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF3F614B153FEC19BA2576D459F05F16 /* Debug */,
+				F2EFB1F3678807BEBD399D027557ECD4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
