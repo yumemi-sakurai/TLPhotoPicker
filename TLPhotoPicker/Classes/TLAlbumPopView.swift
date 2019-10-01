@@ -64,6 +64,18 @@ open class TLAlbumPopView: UIView,PopupViewProtocol {
 //        print("deinit TLAlbumPopView")
     }
     
+    open override func traitCollectionDidChange(_ previousTraitCollection: UITraitCollection?) {
+        super.traitCollectionDidChange(previousTraitCollection)
+        if #available(iOS 13.0, *) {
+            let userInterfaceStyle = self.traitCollection.userInterfaceStyle
+            if userInterfaceStyle.rawValue == 2 {
+                self.popupView.backgroundColor = .systemBackground
+            }else {
+                self.popupView.backgroundColor = .white
+            }
+        }
+    }
+    
     override open func awakeFromNib() {
         super.awakeFromNib()
         self.popupView.layer.cornerRadius = 5.0
