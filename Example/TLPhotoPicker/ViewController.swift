@@ -115,9 +115,9 @@ class ViewController: UIViewController,TLPhotosPickerViewControllerDelegate {
     func dismissPhotoPicker(withTLPHAssets: [TLPHAsset]) {
         // use selected order, fullresolution image
         self.selectedAssets = withTLPHAssets
-        getFirstSelectedImage()
+        //getFirstSelectedImage()
         //iCloud or video
-//        getAsyncCopyTemporaryFile()
+        getAsyncCopyTemporaryFile()
     }
     
     func exportVideo() {
@@ -133,7 +133,7 @@ class ViewController: UIViewController,TLPhotosPickerViewControllerDelegate {
     
     func getAsyncCopyTemporaryFile() {
         if let asset = self.selectedAssets.first {
-            asset.tempCopyMediaFile(convertLivePhotosToJPG: false, progressBlock: { (progress) in
+            asset.tempCopyMediaFile(convertLivePhotosToJPG: true, progressBlock: { (progress) in
                 print(progress)
             }, completionBlock: { (url, mimeType) in
                 print("completion\(url)")

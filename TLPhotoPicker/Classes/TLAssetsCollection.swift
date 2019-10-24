@@ -145,6 +145,7 @@ public struct TLPHAsset {
     public func tempCopyMediaFile(videoRequestOptions: PHVideoRequestOptions? = nil, imageRequestOptions: PHImageRequestOptions? = nil, exportPreset: String = AVAssetExportPresetHighestQuality, convertLivePhotosToJPG: Bool = false, progressBlock:((Double) -> Void)? = nil, completionBlock:@escaping ((URL,String) -> Void)) -> PHImageRequestID? {
         guard let phAsset = self.phAsset else { return nil }
         var type: PHAssetResourceType? = nil
+        var isHeic: Bool = false
         if phAsset.mediaSubtypes.contains(.photoLive) == true, convertLivePhotosToJPG == false {
             type = .pairedVideo
         }else {
@@ -162,6 +163,7 @@ public struct TLPHAsset {
             if let fileName2 = writeURL?.deletingPathExtension().lastPathComponent {
                 writeURL?.deleteLastPathComponent()
                 writeURL?.appendPathComponent("\(fileName2).jpg")
+                isHeic = true
             }
         }
         guard let localURL = writeURL,let mimetype = MIMEType(writeURL) else { return nil }
@@ -204,8 +206,8 @@ public struct TLPHAsset {
             return PHImageManager.default().requestImageData(for: phAsset, options: requestOptions, resultHandler: { (data, uti, orientation, info) in
                 do {
                     var data = data
-                    let needConvertLivePhotoToJPG = phAsset.mediaSubtypes.contains(.photoLive) == true && convertLivePhotosToJPG == true
-                    if needConvertLivePhotoToJPG, let imgData = data, let rawImage = UIImage(data: imgData)?.upOrientationImage() {
+                    let shouldConvert = (phAsset.mediaSubtypes.contains(.photoLive) == true || isHeic) && convertLivePhotosToJPG == true
+                    if shouldConvert, let imgData = data, let rawImage = UIImage(data: imgData)?.upOrientationImage() {
                         data = rawImage.jpegData(compressionQuality: 1)
                     }
                     try data?.write(to: localURL)
