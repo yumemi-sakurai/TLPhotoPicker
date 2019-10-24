@@ -206,8 +206,8 @@ public struct TLPHAsset {
             return PHImageManager.default().requestImageData(for: phAsset, options: requestOptions, resultHandler: { (data, uti, orientation, info) in
                 do {
                     var data = data
-                    let needConvertLivePhotoToJPG = (phAsset.mediaSubtypes.contains(.photoLive) == true || isHeic) && convertLivePhotosToJPG == true
-                    if needConvertLivePhotoToJPG, let imgData = data, let rawImage = UIImage(data: imgData)?.upOrientationImage() {
+                    let shouldConvert = (phAsset.mediaSubtypes.contains(.photoLive) == true || isHeic) && convertLivePhotosToJPG == true
+                    if shouldConvert, let imgData = data, let rawImage = UIImage(data: imgData)?.upOrientationImage() {
                         data = rawImage.jpegData(compressionQuality: 1)
                     }
                     try data?.write(to: localURL)
