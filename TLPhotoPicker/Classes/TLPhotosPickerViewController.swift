@@ -58,6 +58,7 @@ public struct TLPhotosPickerConfigure {
     public var emptyImage: UIImage? = nil
     public var usedCameraButton = true
     public var usedPrefetch = false
+    public var startplayBack: PHLivePhotoViewPlaybackStyle = .hint
     public var allowedLivePhotos = true
     public var allowedVideo = true
     public var allowedAlbumCloudShared = false
@@ -287,6 +288,13 @@ open class TLPhotosPickerViewController: UIViewController {
     }
     
     private func findIndexAndReloadCells(phAsset: PHAsset) {
+        if
+            self.configure.groupByFetch != nil,
+            let indexPath = self.focusedCollection?.findIndex(phAsset: phAsset)
+        {
+            self.collectionView.reloadItems(at: [indexPath])
+            return
+        }
         if
             var index = self.focusedCollection?.fetchResult?.index(of: phAsset),
             index != NSNotFound
@@ -608,8 +616,8 @@ extension TLPhotosPickerViewController: UIImagePickerControllerDelegate, UINavig
             PHPhotoLibrary.shared().performChanges({
                 let newAssetRequest = PHAssetChangeRequest.creationRequestForAsset(from: image)
                 placeholderAsset = newAssetRequest.placeholderForCreatedAsset
-            }, completionHandler: { [weak self] (sucess, error) in
-                if sucess, let `self` = self, let identifier = placeholderAsset?.localIdentifier {
+            }, completionHandler: { [weak self] (success, error) in
+                if success, let `self` = self, let identifier = placeholderAsset?.localIdentifier {
                     guard let asset = PHAsset.fetchAssets(withLocalIdentifiers: [identifier], options: nil).firstObject else { return }
                     var result = TLPHAsset(asset: asset)
                     result.selectedOrder = self.selectedAssets.count + 1
@@ -712,7 +720,7 @@ extension TLPhotosPickerViewController: PHLivePhotoViewDelegate {
                 cell?.livePhotoView?.isHidden = false
                 cell?.livePhotoView?.livePhoto = livePhoto
                 cell?.livePhotoView?.isMuted = true
-                cell?.livePhotoView?.startPlayback(with: .hint)
+                cell?.livePhotoView?.startPlayback(with: self.configure.startplayBack)
             })
             if requestID > 0 {
                 self.playRequestID = (indexPath,requestID)
@@ -722,7 +730,7 @@ extension TLPhotosPickerViewController: PHLivePhotoViewDelegate {
     
     public func livePhotoView(_ livePhotoView: PHLivePhotoView, didEndPlaybackWith playbackStyle: PHLivePhotoViewPlaybackStyle) {
         livePhotoView.isMuted = true
-        livePhotoView.startPlayback(with: .hint)
+        livePhotoView.startPlayback(with: self.configure.startplayBack)
     }
     
     public func livePhotoView(_ livePhotoView: PHLivePhotoView, willBeginPlaybackWith playbackStyle: PHLivePhotoViewPlaybackStyle) {
@@ -731,14 +739,57 @@ extension TLPhotosPickerViewController: PHLivePhotoViewDelegate {
 
 // MARK: - PHPhotoLibraryChangeObserver
 extension TLPhotosPickerViewController: PHPhotoLibraryChangeObserver {
-    public func photoLibraryDidChange(_ changeInstance: PHChange) {
-        guard getfocusedIndex() == 0 else {
-            return
+    private func getChanges(_ changeInstance: PHChange) -> PHFetchResultChangeDetails<PHAsset>? {
+        func isChangesCount<T>(changeDetails: PHFetchResultChangeDetails<T>?) -> Bool {
+            guard let changeDetails = changeDetails else {
+                return false
+            }
+            let before = changeDetails.fetchResultBeforeChanges.count
+            let after = changeDetails.fetchResultAfterChanges.count
+            return before != after
         }
-        let addIndex = self.usedCameraButton ? 1 : 0
+        
+        func isAlbumsChanges() -> Bool {
+            guard let albums = self.photoLibrary.albums else {
+                return false
+            }
+            let changeDetails = changeInstance.changeDetails(for: albums)
+            return isChangesCount(changeDetails: changeDetails)
+        }
+        
+        func isCollectionsChanges() -> Bool {
+            for fetchResultCollection in self.photoLibrary.assetCollections {
+                let changeDetails = changeInstance.changeDetails(for: fetchResultCollection)
+                if isChangesCount(changeDetails: changeDetails) == true {
+                    return true
+                }
+            }
+            return false
+        }
+        
+        if isAlbumsChanges() || isCollectionsChanges() {
+            DispatchQueue.main.async {
+                self.albumPopView.show(false, duration: self.configure.popup.duration)
+                self.photoLibrary.fetchCollection(configure: self.configure)
+            }
+            return nil
+        }else {
+            guard let changeFetchResult = self.focusedCollection?.fetchResult else { return nil }
+            guard let changes = changeInstance.changeDetails(for: changeFetchResult) else { return nil }
+            return changes
+        }
+    }
+    
+    public func photoLibraryDidChange(_ changeInstance: PHChange) {
+        var addIndex = 0
+        if getfocusedIndex() == 0 {
+            addIndex = self.usedCameraButton ? 1 : 0
+        }
         DispatchQueue.main.async {
-            guard let changeFetchResult = self.focusedCollection?.fetchResult else { return }
-            guard let changes = changeInstance.changeDetails(for: changeFetchResult) else { return }
+            guard let changes = self.getChanges(changeInstance) else {
+                return
+            }
+            
             if changes.hasIncrementalChanges, self.configure.groupByFetch == nil {
                 var deletedSelectedAssets = false
                 var order = 0
