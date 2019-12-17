@@ -78,9 +78,9 @@ public struct TLPHAsset {
         }else {
             resource = PHAssetResource.assetResources(for: phAsset).filter { $0.type == .photo }.first
         }
-        if let fileSize = resource?.value(forKey: "fileSize") as? Int {
+        if #available(iOS 10.0, *), let fileSize = try resource?.value(forKey: "fileSize") as? Int {
             completion(fileSize)
-        }else {
+        } else {
             PHImageManager.default().requestImageData(for: phAsset, options: nil) { (data, uti, orientation, info) in
                 var fileSize = -1
                 if let data = data {
