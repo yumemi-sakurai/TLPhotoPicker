@@ -493,6 +493,10 @@ extension TLPhotosPickerViewController {
     
     private func dismiss(done: Bool) {
         if done {
+            self.selectedAssets[0].photoSize(options: nil, completion: { (size: Int) in
+                debugPrint(size)
+            }, livePhotoVideoSize: false)
+            
             #if swift(>=4.1)
             self.delegate?.dismissPhotoPicker(withPHAssets: self.selectedAssets.compactMap{ $0.phAsset })
             #else
